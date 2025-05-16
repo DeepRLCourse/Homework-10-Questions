@@ -4,7 +4,7 @@
 import gym
 import numpy as np
 import torch
-from Brain.brain import Brain
+from Core.ppo_rnd_agent import Brain
 from Common.logger import Logger
 from Common.config import get_params
 from Common.utils import set_random_seeds
